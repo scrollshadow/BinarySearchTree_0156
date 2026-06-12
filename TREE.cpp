@@ -38,6 +38,8 @@ class BinaryTree {
         node* parent = nullptr;
         node* currentNode = nullptr;
         search(element, parent, currentNode);
+
+        //membuat conditional statement
         
     }
 };
