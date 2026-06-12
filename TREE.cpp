@@ -8,4 +8,12 @@ class node {
     string info;
     node* leftChild;
     node* rightChild;
+
+    //construktor class node
+    node(string i, node* l, node* r) {
+        //niali paramater
+        info = i;
+        leftChild = l;
+        rightChild = r;
+    }
 };
